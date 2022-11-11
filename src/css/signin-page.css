@@ -1,6 +1,3 @@
-form {
-    margin-top: 34.99px;
-}
 .form-view {
     width: 320px;
     height: fit-content;
@@ -15,6 +12,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 280px;
+    margin-top: 34.99px;
 }
 fieldset {
     min-width: 0;

@@ -29,6 +29,8 @@ body {
   font-weight: 600;
   margin-top: 23px;
   color: #454545;
+  display: flex;
+  justify-content: center;
 }
 .starting-logo {
   background-image: url("../../public/img/starting-logo.svg");

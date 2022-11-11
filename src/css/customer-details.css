@@ -1,96 +1,109 @@
-.container{
-    padding:10px ;
-    width: 100%;
-    box-sizing: border-box;
+.customerDetails-body {
+  display: flex;
+  flex-direction: column;
+  height: 503px;
+  width: 320px;
+  background-color: white;
+  border: 1px solid rgb(229, 225, 235);
+  border-radius: 5px;
+  align-items: center;
 }
-
-.pr-5{
-    padding-right: 5px;
-    font-weight: 600;
+.details-label {
+  /* font-family: "Proxima Nova"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 8.37px;
 }
-.pr-5{
-    padding-left: 5px;
+.wd-278 {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 14.02px;
 }
-
-.wd-100{
-    width: 100%;
-    font-weight: 600;
-    margin: 20px 0 10px 0;
+.wd-277 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14.42px;
+  margin-bottom: 15.02px;
 }
-.wd-50{
-    width: cal(50% - 5px);
-    box-sizing: border-box;
-    display: inline-block;
+#wd-278 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
 }
-
-.label{
-    font-size: 12px;
-    margin-bottom: 5px;
+.wd-133 {
+  display: flex;
+  width: 278px;
+  gap: 12px;
 }
-
-
-.input-bx{
-    border: 1px solid rgba(221, 216, 216, 0.88);
-    padding: 14px 16px 14px 16px;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 12px;
-    border-radius: 4px;
+#input-bx {
+  padding: 10.5px 11px 10.5px 8px;
+  width: 133px;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-top: 8.37px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
-
-.text{
-    font-weight: 600;
-    margin: 20px 0 10px 0;
+.input-bx {
+  padding: 11.19px 11px 10.42px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-top: 8.37px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
-.input{
-    padding: 14px 16px 14px 16px;
-    border-radius: 4px;
-    margin: 3px;
-    border: 2px solid rgba(221, 216, 216, 0.88);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    margin-bottom:20px ;
-    width: 90%;
-    color: rgba(0, 0, 0, 0.712);
+.detailsContinue-btn {
+  width: 133px;
+  padding: 11px 0px 12px 0px;
+  background-color: white;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background: #593487;
+  border: none;
+  border-radius: 3px;
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  align-items: center;
+  text-transform: uppercase;
 }
-
-.input_small{
-    border-radius: 4px;
-    padding: 14px 30px 14px 30px;
-    border: 2px solid rgba(221, 216, 216, 0.88);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    margin-bottom:20px ;
-    color: rgba(0, 0, 0, 0.712);
-}
-
-.buttonCancel{
-    color:rgb(228, 217, 217) ;
-    padding: 14px 35px 14px 35px;
-    font-size: 100%;
-    border: 0.6px solid rgb(228, 217, 217);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    background-color: white;
-    border-radius: 5px;
-    text-align: center;
-    color: rgb(83, 79, 79);
-    margin: 1% 1%;
-    cursor: pointer;
-    font-weight: 600;
-    background-color: rgb(221, 215, 215); 
-    font-size: medium;
-}
-
-.buttonContinue{
-    color:rgb(228, 217, 217) ;
-    padding: 14px 35px 14px 35px;
-    font-size: 100%;
-    border: 0.6px solid rgb(228, 217, 217);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    background-color: white;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    margin: 1% 1%;
-    cursor: pointer;
-    font-weight: 600;
-    background-color: #5e1b85e7;
+.detailsCancel-btn {
+  padding: 11px 0px 12px 0px;
+  /* height: 40px; */
+  width: 133px;
+  background-color: white;
+  text-align: center;
+  color: #333333;
+  cursor: pointer;
+  background: #dddddd;
+  border: none;
+  border-radius: 3px;
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+  left: -54%;
 }

@@ -11,7 +11,7 @@ import LookupMethod from "./components/LookupMethod";
 import OfferPromo from "./components/OfferPromo";
 import CustomerEmail from "./components/CustomerEmail";
 import CustomerMobNum from "./components/CustomerMobNum";
-import CustomerDetails from "./components/CustomerDetails";
+import CustomerDetails from "./components/customerDetails/CustomerDetails";
 
 function App() {
   return (

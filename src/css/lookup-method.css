@@ -1,42 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .hero {
-    padding: 16px;  
-    display:flex ;
-    justify-content: flex-start;
-    flex-direction: column  ;
-    height: 540px ;
-    width: 340px ;
-    background-color: white ;
-    border: 1px solid rgb(229, 225, 235)  ; 
-    border-radius: 5px;
-    /* box-shadow: 1px 1px 1px 1px grey ; */
+  padding: 0px 19px 0px 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 540px;
+  width: 281px;
+  background-color: white;
+  border: 1px solid rgb(229, 225, 235);
+  border-radius: 5px;
+  /* box-shadow: 1px 1px 1px 1px grey ; */
+}
+.method-btn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+.angle-right {
+    background-image: url("../../public/img/angle-right.svg");
+    background-repeat: no-repeat;
+    height: 14.333333015441907px;
+    width: 8.333333492279059px;
+    border-radius: 0px;
+    user-select: none;
+    margin-right: 19px;
+    display: inline-block;
+    cursor: pointer;
+}
+.warning-icon {
+    background-image: url("../../public/img/warning-icon.svg");
+    background-repeat: no-repeat;
+    height: 16.5px;
+    width: 18.333332061767578px;
+    border-radius: 0px;
+    user-select: none;
+    margin: 0px 16.83px 0px 21.83px;
+    display: inline-block;
+    cursor: pointer;
 }
 .text {
-    margin: 4% 2%;
-    margin-bottom: 14%;
-    text-decoration:none ;
-    color: rgb(41, 40, 40);
-    font-size: 22px;
-    font-weight:600;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    /* letter-spacing: 1px; */
+  /* margin: 4% 2%; */
+  margin-bottom: 14%;
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+  font-size: 22px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  /* letter-spacing: 1px; */
 }
 .button_text,
 .button_icon {
-    
-    display: inline-flex;
-    align-items: center;
-    padding: 17px 13px;
+  display: inline-flex;
+  align-items: center;
+  padding: 17px 13px;
 }
-.button_icon{
-    position: sticky;
-    font-size: 22px;
-    /* padding: 0px 0px 0px 80px;  */
+.button_icon {
+  position: sticky;
+  font-size: 22px;
+  /* padding: 0px 0px 0px 80px;  */
 }
 
-.button_icon{ 
-    font-size: 22px;
-    /* padding: 0px 0px 0px 100px;  */
+.button_icon {
+  font-size: 22px;
+  /* padding: 0px 0px 0px 100px;  */
 }

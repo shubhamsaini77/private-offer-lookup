@@ -8,28 +8,25 @@ const OfferPromo = () => {
     <React.Fragment>
       <div className="lookup-view">
         <div className={Classes.hero}>
-          <span>
-            <h3 className="text">Offer/Promo Code</h3>
-          </span>
-          <div className={Classes.error}>
-            <span className={Classes.button_icon_warning}>
-              <ion-icon name="warning"></ion-icon>
-            </span>
+          <span className="lookup-title">Offer/Promo Code</span>
+          <div className={Classes.errorWarning}>
+            <span className="warning-icon"></span>
             <span className={Classes.button_text}>
               Customer Information not found. Please try again.
             </span>
           </div>
-          <form onSubmit={submitHandler}>
-            <label>
-              <p className={Classes.text}>Offer/Promo Code</p>
-            </label>
-            <div>
-              <input className={Classes.input} type="text" id="" />
-            </div>
+            <form onSubmit={submitHandler}>
+              <label>
+                <p className={Classes.text}>Offer/Promo Code</p>
+              </label>
+              <div>
+                <input className={Classes.input} type="text" id="" />
+              </div>
+              <button className={Classes.buttonContinue}>continue</button>
+            </form>
             <Link to={"/lookupMethod"}>
-            <button className={Classes.buttonCancel}>CANCEL</button></Link>
-              <button className={Classes.buttonContinue}>CONTINUE</button>
-          </form>
+              <button className={Classes.buttonCancel}>CANCEL</button>
+            </Link>
         </div>
       </div>
     </React.Fragment>

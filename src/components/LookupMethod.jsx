@@ -8,47 +8,36 @@ const LookupMethod = () => {
     <React.Fragment>
       <div className="lookup-view">
         <div className="hero">
-          <span>
-            <h3 className="lookup-title">Lookup Method</h3>
-          </span>
-          <Link to={"/offerPromo"}>
-            <Button>
-              <span className="button_text">Offer/Promo Code</span>
+          <span className="lookup-title">Lookup Method</span>
+          <div className="method-btn">
+            <Link to={"/offerPromo"}>
+              <Button>
+                <span className="button_text">Offer/Promo Code</span>
+                <span className="angle-right"></span>
+              </Button>
+            </Link>
 
-              <span className="button_icon">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-              </span>
-            </Button>
-          </Link>
+            <Link to={"/email"}>
+              <Button>
+                <span className="button_text">Customer Email</span>
+                <span className="angle-right"></span>
+              </Button>
+            </Link>
 
-          <Link to={"/email"}>
-          <Button>
-            <span className="button_text">Customer Email</span>
+            <Link to={"/mobileNumber"}>
+              <Button>
+                <span className="button_text">Customer Mobile Number</span>
+                <span className="angle-right"></span>
+              </Button>
+            </Link>
 
-            <span className="button_icon">
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </span>
-          </Button>
-          </Link>
-
-          <Link to={"/mobileNumber"}>
-          <Button>
-            <span className="button_text">Customer Mobile Number</span>
-
-            <span className="button_icon">
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </span>
-          </Button>
-          </Link>
-
-          <Link to={"/customerDetails"}>
-          <Button>
-            <span className="button_text">Customer Name & Address</span>
-            <span className="button_icon">
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </span>
-          </Button>
-          </Link>
+            <Link to={"/customerDetails"}>
+              <Button>
+                <span className="button_text">Customer Name & Address</span>
+                <span className="angle-right"></span>
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </React.Fragment>

@@ -2,90 +2,109 @@
    border: 1px solid red;
 } */
 
-
 .hero {
-    padding: 16px;
-    display:flex ;
-    justify-content: flex-start;
-    flex-direction: column  ;
-    height: 540px ;
-    width: 340px ;
-    background-color: white ;
-    border: 1px solid rgb(229, 225, 235)  ; 
-    border-radius: 5px;
-    /* box-shadow: 1px 1px 1px 1px grey ; */
+  /* padding: 0px 19px 0px 20px; */
+  display: flex;
+  flex-direction: column;
+  height: 503px;
+  width: 320px;
+  background-color: white;
+  border: 1px solid rgb(229, 225, 235);
+  border-radius: 5px;
+  align-items: center;
+  /* box-shadow: 1px 1px 1px 1px grey ; */
 }
-.text{
-    font-weight: 600;
-    margin: 20px 0 10px 0;
+.text {
+  font-weight: 600;
+  margin: 22px 0px 8.37px 0px;
 }
-.error{ 
-    padding-left: 10px;
-    display: inline-flex;
-    align-items: center;
-    height: 80px;
-    /* padding: 20px; */
-    border: 1px solid rgb(192, 13, 13);
-    border-radius: 5px;
-    background-color: rgba(247, 211, 211, 0.205);
-    color: rgb(189, 14, 14);
-    font-weight: 600;
+.errorWarning {
+  align-items: center;
+  height: 75px;
+  width: 287px;
+  border-radius: 5px;
+  background-color: rgba(247, 211, 211, 0.205);
+  box-sizing: border-box;
+  background: #fef8f9;
+  /* AM Red */
+  border: 1px solid #c9112c;
+  border-radius: 4px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 137%;
+  display: flex;
+  color: #c9112c;
+  margin-top: 18px;
 }
-
+/* .offerpromoForm {
+    display: flex;
+    width: 278px;
+} */
 .button_text,
 .button_icon {
-    display: inline-flex;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  width: 193px;
+}
+.button_icon_warning {
+  font-size: 22px;
+}
+
+.input {
+  padding: 11.19px 11px 10.42px 10px;
+  margin-bottom: 22.02px;
+  width: 257px;
+  color: #454545;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.buttonCancel {
+    height: 40px;
+    width: 137px;
+    background-color: white;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 3px;
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
     align-items: center;
-    padding: 0 16px;
-    height: 100%;
-}
-.button_icon_warning{
-    font-size: 22px;
-}
-
-.input{
-    border-radius: 4px;
-    padding: 11px;
-    border: 2px solid rgba(221, 216, 216, 0.88);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    margin-bottom:20px ;
-    width: 90%;
-    color: rgba(0, 0, 0, 0.712);
+    justify-content: center;
+    position: relative;
+    top: -40px;
+    left: -52%;
 }
 
-.buttonCancel{
-    color:rgb(228, 217, 217) ;
-    padding: 1px;
-    height: 35%;
-    width: 48%;
-    font-size: 100%;
-    border: 0.6px solid rgb(228, 217, 217);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    background-color: white;
-    border-radius: 5px;
-    text-align: center;
-    color: rgb(83, 79, 79);
-    margin: 1% 1%;
-    cursor: pointer;
-    font-weight: 600;
-    background-color: rgb(221, 215, 215); 
-    font-size: medium;
-}
-
-.buttonContinue{
-    color:rgb(228, 217, 217) ;
-    padding: 1px;
-    height: 35%;
-    width: 48%;
-    font-size: 100%;
-    border: 0.6px solid rgb(228, 217, 217);
-    box-shadow: 0.6px rgb(212, 208, 208); 
-    background-color: white;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    margin: 1% 1%;
-    cursor: pointer;
-    font-weight: 600;
-    background-color: #5e1b85e7;
+.buttonContinue {
+  height: 40px;
+  width: 137px;
+  background-color: white;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  background: #593487;
+  border: none;
+  border-radius: 3px;
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  align-items: center;
+  text-transform: uppercase;
 }

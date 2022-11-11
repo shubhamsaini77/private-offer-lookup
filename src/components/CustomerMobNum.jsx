@@ -8,13 +8,10 @@ const CustomerMobNum = () => {
     <React.Fragment>
       <div className="lookup-view">
         <div className={Classes.hero}>
-          <span>
-            <h3 className="text">Customer Mobile Number</h3>
+          <span className="lookup-title">Customer Mobile Number
           </span>
-          <div className={Classes.error}>
-            <span className={Classes.button_icon_warning}>
-              <ion-icon name="warning"></ion-icon>
-            </span>
+          <div className={Classes.errorWarning}>
+            <span className="warning-icon"></span>
             <span className={Classes.button_text}>
               Customer Information not found. Please try again. 
             </span>
@@ -26,10 +23,10 @@ const CustomerMobNum = () => {
             <div>
               <input className={Classes.input} type="text" id="" />
             </div>
-            <Link to={"/lookupMethod"}>
-            <button className={Classes.buttonCancel}>CANCEL</button></Link>
             <button className={Classes.buttonContinue}>CONTINUE</button>
           </form>
+          <Link to={"/lookupMethod"}>
+            <button className={Classes.buttonCancel}>CANCEL</button></Link>
         </div>
       </div>
     </React.Fragment>
