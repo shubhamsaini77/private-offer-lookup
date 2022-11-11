@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/customer-details.css"
+import {Link } from 'react-router-dom'
 
  const CustomerDetails = () => {
 
@@ -40,7 +41,8 @@ import "../css/customer-details.css"
                     <input className='input-bx'></input>
                 </span>
             </div>
-            <button className='buttonCancel'>CANCEL</button>
+            <Link to="/lookupMethod"><button className='buttonCancel'>CANCEL</button></Link>
+            
             <button className='buttonContinue'>CONTINUE</button>
         </form>
     </div>
