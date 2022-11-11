@@ -1,0 +1,27 @@
+.button{
+    display: inline-flex ;
+    width: 280px auto;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    text-align: left;
+    margin: 10px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #565656;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 24
+}

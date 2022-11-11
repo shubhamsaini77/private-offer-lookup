@@ -1,0 +1,173 @@
+form {
+    margin-top: 34.99px;
+}
+.form-view {
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.formFieldBox {
+    width: 280px;
+    text-align: left;
+    display: flex;
+  }
+.formFieldBox label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10.01px 0px;
+}
+#dealer-code input {
+    width: 179px;
+}
+.formFieldBox input {
+    width: 259px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 8.37px;
+    padding: 11.19px 11px 11.42px 10px;;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9C9C9C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9C9C9C;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #9C9C9C;
+}
+.dealerCode-help-icon {
+    background-image: url("../../public/img/help-icon.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  align-self: center;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 256px;
+  background: #331C54;
+  color: #fff;
+  padding: 6px 0px;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.below-right {
+	-webkit-transform: translate(-52.5%, -16%);
+	-moz-transform: translate(-52.5%, -16%);
+	-ms-transform: translate(-52.5%, -16%);
+	transform: translate(-52.5%, -16%) !important;
+}
+.below-right::before {
+	width: 0; 
+	height: 0; 
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-top: 11px solid #331C54;
+	content: "";
+	left: 80%;
+	top: 100%;
+	position: absolute;
+	z-index: 99;
+	-webkit-transform: translate(-50%, -10%);
+	-moz-transform: translate(-50%, -10%);
+	-ms-transform: translate(-50%, -10%);
+	transform: translate(-50%, -10%);
+}
+/* reCaptha */
+.reCaptha {
+    display: flex;
+    transform: scale(0.93);
+    transform-origin: 0 0;
+    margin-top: 17.65px
+}
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 19.28px 0px 23px 0px;
+}
+.form-cancel-btn {
+    background: #DDDDDD;
+    border-radius: 3px;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 11px 40px 12px 40px;
+    cursor: default;
+}
+.form-signin-btn-disabled {
+    background: #D8D8D8;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 11px 40px 12px 40px;
+    cursor: default;
+    /* pointer-events: none; */
+}
+.form-signin-btn {
+    background: #593487;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 11px 40px 12px 40px;
+    cursor: default;
+    pointer-events: none;
+}

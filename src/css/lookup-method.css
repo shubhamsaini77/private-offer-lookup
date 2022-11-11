@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.hero {
+    padding: 16px;  
+    display:flex ;
+    justify-content: flex-start;
+    flex-direction: column  ;
+    height: 540px ;
+    width: 340px ;
+    background-color: white ;
+    border: 1px solid rgb(229, 225, 235)  ; 
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 1px 1px grey ; */
+}
+.text {
+    margin: 4% 2%;
+    margin-bottom: 14%;
+    text-decoration:none ;
+    color: rgb(41, 40, 40);
+    font-size: 22px;
+    font-weight:600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    /* letter-spacing: 1px; */
+}
+.button_text,
+.button_icon {
+    
+    display: inline-flex;
+    align-items: center;
+    padding: 17px 13px;
+}
+.button_icon{
+    position: sticky;
+    font-size: 22px;
+    /* padding: 0px 0px 0px 80px;  */
+}
+
+.button_icon{ 
+    font-size: 22px;
+    /* padding: 0px 0px 0px 100px;  */
+}
