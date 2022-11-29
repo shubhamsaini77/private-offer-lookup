@@ -1,0 +1,35 @@
+pipeline {
+	agent {
+		dockerfile {
+			label 'master'
+			filename 'Dockerfile'
+			additionalBuildArgs '--network=host'
+			args ' --network=host -u root --privileged -v /opt/automotive/jenkins/workspace/eeq-react-vulnerability:/app'
+		}
+	}
+	environment {
+        HOME = '.'
+    }
+	stages {
+		stage('debug') {
+			steps {
+				sh 'pwd'
+				sh 'ls -la'
+				sh 'node --version'
+			}
+		}
+		stage ('Build and push') {
+			steps {
+				withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'eeq_deployment_user', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+					script {
+						sh ''' cd webapp/assembly
+						npm install
+						CI=false npm run build
+						zip -r build.zip build
+						aws s3 cp build.zip s3://elb-logs-react-dev/ '''
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+body {
+	background-color: #e5e5e5;
+}
+/* Header */
+.header-logo-up {
+	background-image: url("../../public/img/header-logo-up.svg");
+}
+.header-logo-down {
+	background-image: url("../../public/img/header-logo-down.svg");
+}

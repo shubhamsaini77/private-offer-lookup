@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.hero {
+  padding: 0px 19px 0px 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 320px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.method-btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  /* font-family: "Proxima Nova"; */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 110.5%;
+}
+.angle-right {
+  background-image: url("../../public/img/angle-right.svg");
+  background-repeat: no-repeat;
+  height: 14.333333015441907px;
+  width: 8.333333492279059px;
+  border-radius: 0px;
+  user-select: none;
+  margin-right: 19px;
+  display: inline-block;
+  cursor: pointer;
+}
+.warning-icon {
+  background-image: url("../../public/img/warning-icon.svg");
+  background-repeat: no-repeat;
+  height: 16.5px;
+  width: 21.333332061767578px;
+  border-radius: 0px;
+  user-select: none;
+  margin: 0px 14.83px 0px 21.83px;
+  display: inline-block;
+  cursor: pointer;
+}
+.text {
+  margin-bottom: 14%;
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  text-align: center;
+}
+.button_text,
+.button_icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 17px 13px;
+}
+.button_icon {
+  position: sticky;
+  font-size: 22px;
+}
+
+.button_icon {
+  font-size: 22px;
+}
+
+.brandLogo {
+  background-image: url("../../public/img/audi-logo.svg");
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 26px;
+}
+
+/* custom radio button */
+.radiobtn-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radiobtn-container input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  top: 1px;
+  z-index: 99;
+}
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  height: 14px;
+  width: 14px;
+  background: #ffffff;
+  border: 1px solid #a8a8a8;
+  border-radius: 50%;
+}
+
+.radiobtn-container:hover input ~ .checkmark {
+  border: 1px solid #333333;
+}
+
+.radiobtn-container input:checked ~ .checkmark {
+  background: linear-gradient(180deg, #009cd3 0%, #0071c2 100%);
+  border: 1px solid #0f98c9;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radiobtn-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radiobtn-container .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+#lookup-input:focus {
+	/* background: #FFFFFF; */
+	border: 1px solid #428BCA !important;
+	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25) !important;
+	/* border-radius: 4px; */
+}
+#lookup-input {
+	outline: none;
+}

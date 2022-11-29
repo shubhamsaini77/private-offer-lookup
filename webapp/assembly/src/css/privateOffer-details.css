@@ -1,0 +1,114 @@
+.success-body {
+	width: 558px;
+	height: -moz-fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	padding: 20px 22px 25px 20px;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.private-incentive-title {
+	font-size: 21px;
+	line-height: 21px;
+	font-style: normal;
+	font-weight: 600;
+	margin-top: 10px;
+	color: #454545;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.customer-details {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #454545;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	margin-top: 32px;
+}
+.customer-details span:first-child {
+	font-weight: 600;
+}
+.po-validity {
+	display: flex;
+	margin-top: 20px;
+	flex-direction: column;
+	align-self: flex-start;
+}
+.po-validity-data {
+	display: flex;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 32px;
+	color: #454545;
+}
+.po-validity-data span:first-child {
+	font-weight: 600;
+	white-space: nowrap;
+}
+.po-validity-data span:last-child {
+	white-space: pre-wrap;
+}
+.amountList {
+	display: flex;
+	flex-direction: column;
+	margin-top: 62px;
+}
+.divider {
+	background-image: url("../../public/img/divider.svg");
+	background-repeat: no-repeat;
+	width: 558px;
+	height: 1px;
+	user-select: none;
+	cursor: pointer;
+}
+.amountList-title {
+	display: flex;
+	justify-content: space-between;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 36px;
+	text-transform: capitalize;
+	color: #454545;
+}
+.amountList-data {
+	display: flex;
+	justify-content: space-between;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 36px;
+	text-transform: capitalize;
+	color: #454545;
+}
+.second-amountList {
+	display: flex;
+	flex-direction: column;
+	margin-top: 42px;
+}
+.search-another {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	background: #dddddd;
+	color: #333333;
+	border-radius: 3px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 21px;
+	height: 40px;
+	border: none;
+}

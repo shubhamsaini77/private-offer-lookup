@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	height: 503px;
+	width: 320px;
+	background-color: white;
+	border: 1px solid rgb(229, 225, 235);
+	border-radius: 5px;
+	align-items: center;
+}
+.text {
+	font-weight: 600;
+	margin: 22px 0px 8.37px 0px;
+}
+.errorWarning {
+	align-items: center;
+	height: 75px;
+	border-radius: 5px;
+	background-color: rgba(247, 211, 211, 0.205);
+	box-sizing: border-box;
+	background: #fef8f9;
+	border: 1px solid #c9112c;
+	border-radius: 4px;
+	font-family: "Open Sans", serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 137%;
+	display: flex;
+	color: #c9112c;
+	/* margin-bottom: 32px; */
+}
+.button_text,
+.button_icon {
+	display: flex;
+	align-items: center;
+	padding: 0px;
+	width: 193px;
+}
+.button_icon_warning {
+	font-size: 22px;
+}
+
+.input {
+	padding: 11.19px 11px 10.42px 10px;
+	margin-bottom: 22.02px;
+	width: 257px;
+	color: #454545;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+
+.buttonCancel {
+	height: 40px;
+	width: 137px;
+	background-color: white;
+	text-align: center;
+	color: #333333;
+	cursor: pointer;
+	background: #dddddd;
+	border: none;
+	border-radius: 3px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -40px;
+	left: -52%;
+}
+
+.buttonContinue {
+	height: 40px;
+	width: 137px;
+	background-color: white;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	background: #593487;
+	border: none;
+	border-radius: 3px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	justify-content: center;
+	float: right;
+	align-items: center;
+	text-transform: uppercase;
+}
